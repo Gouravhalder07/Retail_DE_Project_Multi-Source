@@ -1,6 +1,6 @@
 # Retail_DE_Project_Multi-Source
 
-#steps involve
+# steps involve
 
  - Setting Up Azure Resources (ADLS, Azure SQL)  
  - Creating Azure data lake storage
