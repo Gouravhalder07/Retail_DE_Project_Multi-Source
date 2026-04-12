@@ -1,6 +1,6 @@
 # Databricks notebook source
 dbutils.fs.mount(
-  source = "wasbs://retail@retailproject.blob.core.windows.net",
+  source = "abfss://retail@retailproject.blob.core.windows.net",
   mount_point = "/mnt/retail_project",
   extra_configs = {"fs.azure.account.key.retailproject.blob.core.windows.net":"secret access key"})
 
